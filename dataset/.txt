@@ -1,0 +1,70 @@
+训练方案：
+epoch
+hiddensize
+feature
+trainwindows
+cutpoint
+第一批
+莫扎特
+epoch 2
+feature 60
+trainwindows 64
+cutpoint 0.2
+预测2首莫扎特曲子
+
+epoch 2
+feature 60
+trainwindows 128
+cutpoint 0.2
+预测2首相同莫扎特曲子
+
+epoch 4
+feature 60
+trainwindows 64
+cutpoint 0.2
+预测2首相同莫扎特曲子
+
+第二批
+巴赫
+epoch 4
+feature 60
+trainwindows 128
+cutpoint 0.2
+预测2首巴赫曲子
+
+第三批
+epoch 6
+feature 80
+trainwindows 128
+cutpoint 0.4
+2首巴赫曲子，2首莫扎特曲子，2首爵士乐
+
+第四批
+爵士
+epoch 4
+feature 60
+trainwindows 128
+cutpoint 0.4
+2首巴赫曲子，2首莫扎特曲子，2首爵士乐
+
+接下来
+假设现在睡觉，6点半去买麦当劳
+8点吃完接着学
+10点前去写一下数据部分
+然后训练根据结果把评估的框架写一下。
+剩下建模型部分，睡一觉到2点，6点前把东西全部写完。
+晚上进行机翻纠错，补充图片和代码附录以及引用。
+12点前导出第一个初稿。问问楠哥的看法。
+
+
+估计12点能全部训练完，写评估得2小时
+目前剩余任务：
+写目录
+画可能5个流程图
+添加一堆图片
+文献回顾部分的翻译，修改句式，添加引用
+Collect data from midi files部分代码设计
+Build deep learning model部分所有
+Prediction Implementation部分所有
+Program instructions一半
+Evaluation and Testing一半
